@@ -1,0 +1,22 @@
+﻿<Window x:Class="AntiVirusSir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AntiVirusSir"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Content="AnvtiVirusSir&#x9;&#x9;" FontSize="25" Foreground="Black" FontWeight="Bold" Margin="109,0,167,340" RenderTransformOrigin="0.584,0.517">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.206"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="Выбрать директорию для проверки" Click="BrowseFolder" Margin="271,165,264,199"/>
+    </Grid>
+</Window>
